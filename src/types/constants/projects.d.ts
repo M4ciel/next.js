@@ -1,8 +1,9 @@
 declare namespace ProjectsType {
 	type Item = {
 		title: string;
-		banner: string;
+		description?: string;
 		link: string;
 		active: boolean;
+		banner?: string;
 	};
 }

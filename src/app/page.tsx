@@ -1,3 +1,4 @@
+import ProjectCard from "@/components/project-card";
 import { ProjectsConstant } from "@/constants/projects";
 
 const HomePage = () => {
@@ -8,9 +9,11 @@ const HomePage = () => {
 			<h1 className="font-bold text-4xl text-primary">
 				TIL (Today I Learn)
 			</h1>
-			<div className="w-full h-full">
+			<div className="w-full h-full grid grid-cols-2 lg:grid-cols-4">
 				{projects.map((project, index) => (
-					<p key={index}>a</p>
+					<div key={index}>
+						<ProjectCard project={project} />
+					</div>
 				))}
 			</div>
 			<h4>

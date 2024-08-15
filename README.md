@@ -10,6 +10,8 @@ This project is part of my TIL series, where I document and share my daily learn
 
 Below is a list of the functionalities I’ve implemented so far. These features are designed to be modular, reusable, and easy to integrate into any Next.js project.
 
+1. **Form Validation with Zod:** A robust form validation function using Zod, providing strong typing and validation in one step for complex forms.
+
 ## 🛠️ Future Additions
 I’m always learning and exploring new things in Next.js. Here are some features I plan to implement soon:
 
@@ -22,6 +24,5 @@ I’m always learning and exploring new things in Next.js. Here are some feature
 7. **Custom Hook for Fetching Data:** A reusable hook that simplifies the process of fetching data from an API, including handling loading states and errors.
 8. **Toggle Dark Mode:** A feature that allows users to switch between light and dark themes, with their preference saved in localStorage for future visits.
 9. **Infinite Scroll:** A function that automatically loads more content as the user scrolls down the page, eliminating the need for pagination links.
-10. **Form Validation with Zod:** A robust form validation function using Zod, providing strong typing and validation in one step for complex forms.
 
 Feel free to use, modify, or contribute to this repository. Your feedback and contributions are welcome!
